@@ -27,5 +27,5 @@ class TestSimpleFunctions(object):
         assert answer == expected
 
     def test_sin(self):
-        mysin = my_sin(10)
-        assert np.isclose(mysin, np.sin(10),atol=1e-1)
+        mysin = my_sin(np.pi/3)
+        assert np.isclose(mysin, np.sin(np.pi/3),atol=1e-1)

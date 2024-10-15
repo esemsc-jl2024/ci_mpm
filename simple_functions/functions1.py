@@ -1,6 +1,9 @@
 
-__all__ = ['my_sum']
+__all__ = ['my_sum''factorial']
 
+@cache
+def factorial(n):
+    return n * factorial(n-1) if n else 1
 
 def my_sum(iterable):
     tot = 0

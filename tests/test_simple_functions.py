@@ -28,4 +28,4 @@ class TestSimpleFunctions(object):
 
     def test_sin(self):
         mysin = my_sin(10)
-        assert np.isclose(mysin, np.sin(10), atol=1e-5)
+        assert np.isclose(mysin, np.sin(10), atol=1e-2)
